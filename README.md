@@ -51,7 +51,9 @@ Then open http://127.0.0.1:4173. The page shows a "Synthetic fixture data" banne
 
 On the prepared Windows installation, double-click **Launch Explorer.pyw** (or the desktop shortcut). It starts the local viewer without opening a terminal. The shortcut depends on this project folder, Python and Node remaining installed on this computer.
 
-Place the raw response at `data/raw/usgs-2024-01_m4.5.geojson` with its hash in `data/raw/usgs-2024-01_m4.5.geojson.sha256` and acquisition notes in `data/raw/provenance.local.json`. Then:
+Place the raw response at `data/raw/usgs-2024-01_m4.5.geojson` with its hash in `data/raw/usgs-2024-01_m4.5.geojson.sha256` and acquisition notes in `data/raw/provenance.local.json`.
+
+The original candidate came from this [USGS FDSN query](https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2024-01-01T00%3A00%3A00&endtime=2024-02-01T00%3A00%3A00&minmagnitude=4.5&eventtype=earthquake&orderby=time-asc). It was retrieved approximately 2026-11-15 06:03–06:04 UTC: 623 records, 442,192 bytes, SHA-256 `317e64198ba71405719e2ac0e177e18bb79c92b0ecc07c43a26a471ce083edfe`. Both query endpoints are inclusive. Because the catalog is revised, downloading the URL again may produce different data or bytes; an exact reproduction requires the original verified bytes, which are not distributed in this repository. To run the pipeline:
 
 ```bash
 python -m quakeexplorer real
