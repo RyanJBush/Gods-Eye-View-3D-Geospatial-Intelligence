@@ -1,0 +1,1301 @@
+{
+ "type": "FeatureCollection",
+ "metadata": {
+  "generated": 1794722633000,
+  "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2024-01-01T00%3A00%3A00&endtime=2024-02-01T00%3A00%3A00&minmagnitude=4.5&eventtype=earthquake&orderby=time-asc",
+  "title": "Synthetic fixture (not real earthquake data)",
+  "status": 200,
+  "api": "2.8.4",
+  "count": 56
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704070800000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.2,
+     40.7,
+     10.0
+    ]
+   },
+   "id": "fx-amb-l1"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704074400000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.2,
+     39.7,
+     10.0
+    ]
+   },
+   "id": "fx-amb-l2"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704078000000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.2,
+     38.8,
+     10.0
+    ]
+   },
+   "id": "fx-amb-l3"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704081600000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.2,
+     37.8,
+     10.0
+    ]
+   },
+   "id": "fx-amb-l4"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704085200000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.2,
+     44.3,
+     10.0
+    ]
+   },
+   "id": "fx-amb-r1"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704088800000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.2,
+     45.3,
+     10.0
+    ]
+   },
+   "id": "fx-amb-r2"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704092400000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.2,
+     46.2,
+     10.0
+    ]
+   },
+   "id": "fx-amb-r3"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704096000000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.2,
+     47.2,
+     10.0
+    ]
+   },
+   "id": "fx-amb-r4"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704099600000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.2,
+     42.5,
+     10.0
+    ]
+   },
+   "id": "fx-amb-z"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704103200000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     50.2,
+     0.5,
+     10.0
+    ]
+   },
+   "id": "fx-chain-1"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704106800000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     50.2,
+     1.4,
+     10.0
+    ]
+   },
+   "id": "fx-chain-2"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704110400000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     50.2,
+     2.3,
+     10.0
+    ]
+   },
+   "id": "fx-chain-3"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704114000000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     50.2,
+     3.2,
+     10.0
+    ]
+   },
+   "id": "fx-chain-4"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704117600000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     50.2,
+     4.1,
+     10.0
+    ]
+   },
+   "id": "fx-chain-5"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704121200000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     50.2,
+     6.8,
+     10.0
+    ]
+   },
+   "id": "fx-chain-x"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704124800000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     50.2,
+     -1.3,
+     10.0
+    ]
+   },
+   "id": "fx-chain-y"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704128400000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     179.6,
+     -15.2,
+     10.0
+    ]
+   },
+   "id": "fx-dateline-1"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704132000000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     179.9,
+     -15.4,
+     10.0
+    ]
+   },
+   "id": "fx-dateline-2"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704135600000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -179.8,
+     -15.3,
+     10.0
+    ]
+   },
+   "id": "fx-dateline-3"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704139200000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -179.5,
+     -15.1,
+     10.0
+    ]
+   },
+   "id": "fx-dateline-4"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704142800000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     180.0,
+     -15.25,
+     10.0
+    ]
+   },
+   "id": "fx-dateline-5"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704146400000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.0,
+     12.0,
+     10.0
+    ]
+   },
+   "id": "fx-dense-a1"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704150000000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.1,
+     12.2,
+     10.0
+    ]
+   },
+   "id": "fx-dense-a2"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704153600000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.3,
+     12.1,
+     10.0
+    ]
+   },
+   "id": "fx-dense-a3"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704157200000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.2,
+     12.05,
+     10.0
+    ]
+   },
+   "id": "fx-dense-a4"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704160800000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     21.9,
+     12.3,
+     10.0
+    ]
+   },
+   "id": "fx-dense-a5"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704164400000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.4,
+     12.4,
+     10.0
+    ]
+   },
+   "id": "fx-dense-a6"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704168000000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -69.6,
+     -33.4,
+     10.0
+    ]
+   },
+   "id": "fx-dense-b1"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704171600000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -69.4,
+     -33.2,
+     10.0
+    ]
+   },
+   "id": "fx-dense-b2"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704175200000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -69.2,
+     -33.3,
+     10.0
+    ]
+   },
+   "id": "fx-dense-b3"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704178800000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -69.5,
+     -33.1,
+     10.0
+    ]
+   },
+   "id": "fx-dense-b4"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704182400000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -69.3,
+     -33.45,
+     10.0
+    ]
+   },
+   "id": "fx-dense-b5"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704186000000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.0,
+     0.0,
+     10.0
+    ]
+   },
+   "id": "fx-edge-1"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704189600000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.0,
+     10.0,
+     10.0
+    ]
+   },
+   "id": "fx-edge-2"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704193200000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -65.0001,
+     14.9999,
+     10.0
+    ]
+   },
+   "id": "fx-edge-3"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704196800000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -65.0,
+     15.0,
+     10.0
+    ]
+   },
+   "id": "fx-edge-4"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704200400000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -180.0,
+     -50.0,
+     10.0
+    ]
+   },
+   "id": "fx-edge-5"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704204000000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     100.5,
+     45.5,
+     10.0
+    ]
+   },
+   "id": "fx-iso-1"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704207600000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.3,
+     -60.2,
+     10.0
+    ]
+   },
+   "id": "fx-iso-2"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704211200000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.0,
+     89.5,
+     10.0
+    ]
+   },
+   "id": "fx-npole-1"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704214800000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     90.0,
+     89.5,
+     10.0
+    ]
+   },
+   "id": "fx-npole-2"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704218400000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     180.0,
+     89.5,
+     10.0
+    ]
+   },
+   "id": "fx-npole-3"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704222000000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.0,
+     89.5,
+     10.0
+    ]
+   },
+   "id": "fx-npole-4"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704225600000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.0,
+     90.0,
+     10.0
+    ]
+   },
+   "id": "fx-npole-5"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704229200000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.5,
+     -25.5,
+     10.0
+    ]
+   },
+   "id": "fx-ord-A"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704232800000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -80.5,
+     35.5,
+     10.0
+    ]
+   },
+   "id": "fx-ord-a"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704236400000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -100.5,
+     -5.5,
+     10.0
+    ]
+   },
+   "id": "fx-ord-é"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704240000000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     20.5,
+     65.5,
+     10.0
+    ]
+   },
+   "id": "fx-ord-～"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704243600000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     70.5,
+     -40.5,
+     10.0
+    ]
+   },
+   "id": "fx-ord-🌋"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704247200000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -30.5,
+     -45.5,
+     10.0
+    ]
+   },
+   "id": "fx-small-1"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704250800000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -30.4,
+     -45.6,
+     10.0
+    ]
+   },
+   "id": "fx-small-2"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704254400000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -30.6,
+     -45.4,
+     10.0
+    ]
+   },
+   "id": "fx-small-3"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704258000000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     30.0,
+     -89.5,
+     10.0
+    ]
+   },
+   "id": "fx-spole-1"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704261600000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.0,
+     -89.5,
+     10.0
+    ]
+   },
+   "id": "fx-spole-2"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704265200000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -150.0,
+     -89.5,
+     10.0
+    ]
+   },
+   "id": "fx-spole-3"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "synthetic",
+    "time": 1704268800000,
+    "updated": null,
+    "url": null,
+    "status": "reviewed",
+    "net": "fx",
+    "magType": "mb",
+    "type": "earthquake"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.0,
+     -90.0,
+     10.0
+    ]
+   },
+   "id": "fx-spole-4"
+  }
+ ]
+}

@@ -1,0 +1,10 @@
+[project]
+name = "quakeexplorer"
+version = "0.1.0"
+description = "Descriptive, historical earthquake cluster analysis of one frozen USGS snapshot"
+requires-python = ">=3.13,<3.14"
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "tests"]
+testpaths = ["tests"]
+addopts = "-ra"

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Earthquake Cluster Explorer</title>
+    <meta name="description" content="Descriptive, historical view of one frozen USGS earthquake snapshot with algorithmic groups on a 3D globe and an accessible table." />
+  </head>
+  <body>
+    <a class="skip" href="#table-host">Skip to events table</a>
+    <header>
+      <h1>Earthquake Cluster Explorer</h1>
+      <p class="notice" role="note">
+        Descriptive and historical view of one frozen catalogue snapshot. It is <strong>not a forecast</strong> and not a hazard estimate.
+        Groups are DBSCAN outputs on map proximity only (an algorithmic grouping, not ground truth), and grid cells are an arbitrary baseline.
+      </p>
+      <p id="kind-banner" class="banner" hidden></p>
+      <p id="fatal" class="fatal" role="alert" hidden></p>
+    </header>
+    <main>
+      <section class="globe-pane" aria-label="3D globe">
+        <div id="globe" class="globe"></div>
+        <p id="globe-fallback" class="fallback" hidden></p>
+        <p class="hint muted">Drag to rotate, scroll to zoom, click a marker to select. Marker shape and color both show the group; size shows magnitude.</p>
+      </section>
+      <aside class="side">
+        <section aria-labelledby="inspector-h">
+          <h2 id="inspector-h">Selected event</h2>
+          <div id="inspector" aria-live="polite"></div>
+        </section>
+        <details open>
+          <summary>Groups</summary>
+          <ul id="legend-list" class="legend"></ul>
+        </details>
+      </aside>
+      <section class="table-pane" aria-labelledby="table-h">
+        <h2 id="table-h">Events</h2>
+        <div id="table-host"></div>
+      </section>
+    </main>
+    <footer>
+      <p id="credit"></p>
+      <p id="counts"></p>
+      <p>Query: <code id="query"></code></p>
+      <p>Raw snapshot SHA-256: <code id="hash"></code></p>
+      <p class="muted">One month of one catalogue query; a month mixes mainshocks, aftershocks and unrelated seismicity, and catalogue completeness varies by region.</p>
+    </footer>
+    <p id="sr-status" class="sr-only" role="status" aria-live="polite"></p>
+    <noscript><p class="fatal">This page needs JavaScript to show the events.</p></noscript>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

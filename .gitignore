@@ -1,0 +1,36 @@
+# Real USGS data stays local and untracked while redistribution terms are unresolved.
+# This covers the raw snapshot, every derived result, and anything built from them.
+/data/raw/
+/data/derived/
+/data/local/
+/output/
+/reports/local/
+/work/
+/dist/
+/build/
+/web/dist/
+/web/demo-data/
+/web/public/
+/web/local-data/
+*.local.*
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Node
+node_modules/
+*.tsbuildinfo
+coverage/
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
