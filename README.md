@@ -76,7 +76,7 @@ Then open http://127.0.0.1:5174/?data=local. `real` validates in strict mode (an
 
 ## Limits and what is not claimed
 
-No hosted CI result, no OS-level offline test, no real WebGL-unavailable browser test, no screen-reader or usability study, and no performance or memory measurement exist yet. See the implementation log for what was actually run.
+Hosted CI passed for commit `c775b23` ([workflow run](https://github.com/RyanJBush/project-14-earthquake-explorer/actions/runs/43692802108)). No OS-level offline test, real WebGL-unavailable browser test, screen-reader or usability study, or performance or memory measurement exists yet. See the implementation log for what was actually run.
 
 ## License
 

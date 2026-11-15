@@ -89,3 +89,10 @@ Implementation-time choices not spelled out in the review (flag if Codex disagre
 - `verify_bundle.py` regenerates the synthetic artifacts in the current environment, so demo data built under different Python or scikit-learn versions will not byte-match; regenerate `web/demo-data/` first.
 - The ID and `dataset_kind` scans are supplemental by design; the guarantees are the allowlist, the fixture-hash requirement and the refused local-mode build.
 - Still not observed: hosted CI, OS-level offline behavior, a genuinely WebGL-less browser (the `?webgl=off` switch only simulates it), accessibility audit, performance or memory.
+
+## Session 3: GitHub handoff (Codex)
+
+- 2026-11-15, 08:03:30–08:06 UTC approximately: about 2.5 minutes wall-clock to this checkpoint, including tool and CI wait time, not a human labor measurement. Earlier Claude sessions include untimed work, so cumulative actual effort remains unknown.
+- Confirmed the tracked-file guard passed and local raw data, derived artifacts, and evaluation reports were ignored. Added the agreed MIT license for original code and clarified the limits of bundle checks; committed as `c775b23`.
+- Created the private GitHub repository and verified its visibility before pushing. The first hosted [CI run](https://github.com/RyanJBush/project-14-earthquake-explorer/actions/runs/43692802108) passed the guard, analysis, and web jobs on `c775b23`. It used the synthetic fixture only.
+- Started the local viewer on loopback. A browser loaded the real-data view with a canvas and 623 table rows; no real records were pushed. No genuine no-WebGL browser, OS-level offline test, or genuine back-forward-cache restore was observed in this session. Earlier limitations remain applicable, except hosted CI is now verified for the stated commit.
