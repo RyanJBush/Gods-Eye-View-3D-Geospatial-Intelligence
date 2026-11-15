@@ -2,6 +2,8 @@
 
 A local, descriptive and historical view of **one frozen USGS earthquake snapshot** (events with M4.5+ from 2024-01-01 to 2024-02-01, one query). A reproducible Python analysis assigns DBSCAN groups and grid cells. A 3D globe and an accessible table share one selection and show every source field, including missing ones.
 
+[Open the public synthetic demo](https://ryanjbush.github.io/project-14-earthquake-explorer/). The public demo uses invented fixture points, not real earthquakes.
+
 **This is not a forecast, a hazard estimate, or a validated seismological model.** DBSCAN groups are algorithmic groupings of map proximity, not ground truth. A month mixes mainshocks, aftershocks and unrelated seismicity, and catalogue completeness varies by region.
 
 Contract and decisions: [docs/contract.md](docs/contract.md). Reviewed fixtures: [docs/fixture-table.md](docs/fixture-table.md). Work log: [docs/implementation-log.md](docs/implementation-log.md).

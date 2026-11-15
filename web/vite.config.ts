@@ -13,7 +13,7 @@ const csp: Plugin = {
   transformIndexHtml(html) {
     const policy =
       "default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; " +
-      "base-uri 'none'; form-action 'none'; frame-ancestors 'none'";
+      "base-uri 'none'; form-action 'none'";
     return html.replace("<head>", `<head>\n    <meta http-equiv="Content-Security-Policy" content="${policy}" />`);
   },
 };
