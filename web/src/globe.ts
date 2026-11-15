@@ -1,6 +1,7 @@
 import * as THREE from "three";
 import { OrbitControls } from "three/addons/controls/OrbitControls.js";
 import { latLonToXYZ } from "./geo";
+import coastlineRaw from "./coastline.json?raw";
 import { ResourceLedger } from "./resources";
 import { clusterStyle, SHAPES } from "./rows";
 import type { SelectionController } from "./selection";
@@ -55,7 +56,7 @@ export function createGlobe(
   controls.maxDistance = 6;
   controls.rotateSpeed = 0.6;
 
-  // Sphere and graticule (no coastlines, no tiles, no network).
+  // Sphere, graticule, and locally bundled Natural Earth coastlines (no tiles or network).
   const sphereGeo = ledger.track(new THREE.SphereGeometry(1, 64, 48), "sphere geometry");
   const sphereMat = ledger.track(new THREE.MeshBasicMaterial({ color: 0x17324d }), "sphere material");
   const sphere = new THREE.Mesh(sphereGeo, sphereMat);
@@ -79,6 +80,25 @@ export function createGlobe(
   gratGeo.setAttribute("position", new THREE.Float32BufferAttribute(linePositions, 3));
   const gratMat = ledger.track(new THREE.LineBasicMaterial({ color: 0x4f7ba3, transparent: true, opacity: 0.55 }), "graticule material");
   scene.add(new THREE.LineSegments(gratGeo, gratMat));
+
+  const coastline = JSON.parse(coastlineRaw) as {
+    features: { geometry: { coordinates: [number, number][] } }[];
+  };
+  const coastPositions: number[] = [];
+  for (const feature of coastline.features) {
+    const points = feature.geometry.coordinates;
+    for (let i = 1; i < points.length; i++) {
+      const previous = points[i - 1];
+      const current = points[i];
+      if (!previous || !current) continue;
+      coastPositions.push(...latLonToXYZ(previous[1], previous[0], 1.004));
+      coastPositions.push(...latLonToXYZ(current[1], current[0], 1.004));
+    }
+  }
+  const coastGeo = ledger.track(new THREE.BufferGeometry(), "coastline geometry");
+  coastGeo.setAttribute("position", new THREE.Float32BufferAttribute(coastPositions, 3));
+  const coastMat = ledger.track(new THREE.LineBasicMaterial({ color: 0x98b9c9 }), "coastline material");
+  scene.add(new THREE.LineSegments(coastGeo, coastMat));
 
   // Markers: one InstancedMesh per shape (circle, diamond, square, noise triangle).
   const shapeGeos: Record<string, THREE.BufferGeometry> = {

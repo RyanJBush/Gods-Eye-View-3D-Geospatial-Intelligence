@@ -47,6 +47,8 @@ Then open http://127.0.0.1:4173. The page shows a "Synthetic fixture data" banne
 
 ## Run on the local real snapshot
 
+On the prepared Windows installation, double-click **Launch Explorer.pyw** (or the desktop shortcut). It starts the local viewer without opening a terminal. The shortcut depends on this project folder, Python and Node remaining installed on this computer.
+
 Place the raw response at `data/raw/usgs-2024-01_m4.5.geojson` with its hash in `data/raw/usgs-2024-01_m4.5.geojson.sha256` and acquisition notes in `data/raw/provenance.local.json`. Then:
 
 ```bash
@@ -73,10 +75,11 @@ Then open http://127.0.0.1:5174/?data=local. `real` validates in strict mode (an
 - Production builds carry a Content-Security-Policy that allows only same-origin requests.
 - On `pagehide` the globe and table are disposed. If the browser restores the page from the back-forward cache (`pageshow` with `persisted`), they are rebuilt and the selection is restored. A page that is really going away also drops the selection.
 - `?webgl=off` forces the no-WebGL fallback for testing. It simulates the failure; it is not a real WebGL-less browser.
+- Coastlines are bundled offline from Natural Earth 1:110m coastline v4.1.0, source repository commit `ca96624a56bd078437bca8184e78163e5039ad19`, file SHA-256 `851f581ff5ffb844deed8ae1a9ce22e3c4bb3d74fa342cadb5d8e39b41ae7c3c`. Natural Earth describes its data as [public domain](https://www.naturalearthdata.com/about/terms-of-use/); this separate data asset is not covered by the project's MIT code license.
 
 ## Limits and what is not claimed
 
-Hosted CI passed for commit `c775b23` ([workflow run](https://github.com/RyanJBush/project-14-earthquake-explorer/actions/runs/43692802108)). No OS-level offline test, real WebGL-unavailable browser test, screen-reader or usability study, or performance or memory measurement exists yet. See the implementation log for what was actually run.
+Hosted CI passed for commit `c775b23` ([workflow run](https://github.com/RyanJBush/project-14-earthquake-explorer/actions/runs/43692802108)). The table fallback was also checked in headless Chrome with WebGL disabled. No OS-level offline test, genuine back-forward-cache restore, screen-reader or usability study, or performance or memory measurement exists yet. See the implementation log for what was actually run.
 
 ## License
 
