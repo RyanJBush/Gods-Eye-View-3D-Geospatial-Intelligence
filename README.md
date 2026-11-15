@@ -14,7 +14,7 @@ How that is kept true (two separate paths, enforced in code):
 
 - **Distributable path.** `npm run build` and the demo use the synthetic fixture only. The build plugin ([web/plugins/data-separation.ts](web/plugins/data-separation.ts)) emits exactly two data files from `web/demo-data/`, and refuses them unless their raw-source hash equals the SHA-256 of the checked-in fixture, so a real artifact is rejected even if mislabelled. Nothing is copied implicitly (`publicDir` is off).
 - **Local real-data path.** `npm run local` starts the Vite *dev server* in `--mode local-data`, which serves `data/derived/` at `/local-data/*` straight from disk. That mode can never run a build, and no other mode serves those URLs. Nothing real is copied into `web/`, and the `real` pipeline command writes only under `data/` and `reports/local/`.
-- **Checks.** `scripts/verify_bundle.py web/dist` checks a built bundle against an allowlist of files and byte-compares its data with a fresh regeneration from the fixture. `scripts/check_tracked_files.py` fails if reserved paths or real-looking IDs are tracked. Scans for IDs and `dataset_kind: real` run too, but they are **supplemental**: a scan only finds what it knows to look for and is not proof. The structural checks are the guarantee. Focused tests: `web/tests/separation.test.ts`, `tests/test_bundle.py`.
+- **Checks.** `scripts/verify_bundle.py web/dist` checks a built bundle against an allowlist of files and byte-compares its data with a fresh regeneration from the fixture. `scripts/check_tracked_files.py` fails if reserved paths or real-looking IDs are tracked. Scans for IDs and `dataset_kind: real` are supplemental; neither they nor the allowlist can prove arbitrary future code or assets contain no real data. Review changes before sharing. Focused tests: `web/tests/separation.test.ts`, `tests/test_bundle.py`.
 - A real-data view carries a banner: for this computer only, do not share, publish or bundle it. Do not screenshot or share the local viewer.
 
 ## Setup (Python 3.13, Node 22.12+)
@@ -77,3 +77,7 @@ Then open http://127.0.0.1:5174/?data=local. `real` validates in strict mode (an
 ## Limits and what is not claimed
 
 No hosted CI result, no OS-level offline test, no real WebGL-unavailable browser test, no screen-reader or usability study, and no performance or memory measurement exist yet. See the implementation log for what was actually run.
+
+## License
+
+Original project code is available under the [MIT License](LICENSE). This license does not cover the USGS snapshot or third-party dependencies; see their respective terms.
