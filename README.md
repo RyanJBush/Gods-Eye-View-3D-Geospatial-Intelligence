@@ -2,7 +2,7 @@
 
 A local, descriptive and historical view of **one frozen USGS earthquake snapshot** (events with M4.5+ from 2024-01-01 to 2024-02-01, one query). A reproducible Python analysis assigns DBSCAN groups and grid cells. A 3D globe and an accessible table share one selection and show every source field, including missing ones.
 
-[Open the public synthetic demo](https://ryanjbush.github.io/project-14-earthquake-explorer/). The public demo uses invented fixture points, not real earthquakes.
+[Open the public synthetic demo](https://ryanjbush.github.io/Gods-Eye-View-3D-Geospatial-Intelligence/). The public demo uses invented fixture points, not real earthquakes.
 
 **This is not a forecast, a hazard estimate, or a validated seismological model.** DBSCAN groups are algorithmic groupings of map proximity, not ground truth. A month mixes mainshocks, aftershocks and unrelated seismicity, and catalogue completeness varies by region.
 
@@ -83,7 +83,7 @@ Then open http://127.0.0.1:5174/?data=local. `real` validates in strict mode (an
 
 ## Limits and what is not claimed
 
-Hosted CI passed for commit `c775b23` ([workflow run](https://github.com/RyanJBush/project-14-earthquake-explorer/actions/runs/43692802108)). The table fallback was also checked in headless Chrome with WebGL disabled. No OS-level offline test, genuine back-forward-cache restore, screen-reader or usability study, or performance or memory measurement exists yet. See the implementation log for what was actually run.
+Hosted CI passed for commit `c775b23` ([workflow run](https://github.com/RyanJBush/Gods-Eye-View-3D-Geospatial-Intelligence/actions/runs/43692802108)). The table fallback was also checked in headless Chrome with WebGL disabled. No OS-level offline test, genuine back-forward-cache restore, screen-reader or usability study, or performance or memory measurement exists yet. See the implementation log for what was actually run.
 
 ## License
 
